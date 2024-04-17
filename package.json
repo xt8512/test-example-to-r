@@ -1,6 +1,6 @@
 {
   "name": "test-example-to-r",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "pruebas basicas del npm publish",
   "keyboards": ["useless"],
   "homepage": "https://github.com/xt8512/test-example-to-r",
