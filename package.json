@@ -1,8 +1,13 @@
 {
   "name": "test-example-to-r",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "pruebas basicas del npm publish",
   "keyboards": ["useless"],
+  "homepage": "https://github.com/xt8512/test-example-to-r",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xt8512/test-example-to-r"
+  },
   "licenses": [
     {
       "type": "MIT",
@@ -18,9 +23,6 @@
     "build-node": "npx tsc src/index.ts --module ES6 --outDir dist-node",
     "build": "npm run build-browser && npm run build-node"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "typescript": "^5.4.5"
   }
