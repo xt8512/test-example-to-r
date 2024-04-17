@@ -1,0 +1,27 @@
+{
+  "name": "test-example-to-r",
+  "version": "1.0.1",
+  "description": "pruebas basicas del npm publish",
+  "keyboards": ["useless"],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  ],
+  "autor": "John Soft fake",
+  "main": "dist-node/index.js",
+  "browser": "dist-browser/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-browser": "npx tsc src/index.ts --module ES6 --outDir dist-browser",
+    "build-node": "npx tsc src/index.ts --module ES6 --outDir dist-node",
+    "build": "npm run build-browser && npm run build-node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
